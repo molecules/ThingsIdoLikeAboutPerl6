@@ -9,9 +9,9 @@ But I obviously don't know it well enough, because so far there are only a few t
 2. Unused named parameters in method calls are silently ignored. Even https://github.com/nxadm/StrictNamedArguments does not fix except for on methods that you explictly declare `strict`.
 3. It doesn't yet have an implementation that is as fast as Perl 5 for processing huge files (but it is getting faster).
 
-# Things About Perl 6 that I don't feel I can live without:
+# Things About Perl 6 that I'm addicted to
 
-But there are at least 10 reasons I can't leave Perl 6:
+There are at least 10 reasons I can't leave Perl 6:
 
 1. sub `MAIN` captures command line parameters into variables of your choice
 2. sub `MAIN` automatically results in a `USAGE` statement when its parameters are not met
@@ -21,9 +21,12 @@ But there are at least 10 reasons I can't leave Perl 6:
 6. Much improved regular expressions (e.g. Not needing `xms` at the end of every regex)
 7. The ability to easily chain methods (like in Python)
 8. Using unspace with chained methods so that they can line up vertically (unlike Python?)
-
-9. By the way, did I mention how much I like `MAIN` subroutines?
+9. By the way, did I mention how easy `MAIN` subroutines make it to create your own command line utilities?
 10. See 1, 2, 3, and 9 above.
+11. `shell` and `run`
+12. Extract multiple items from an array at a time `for @array -> $var1, $var2 { }`
+
+
 
 Other things that I really like, even though I haven't yet used them:
 
