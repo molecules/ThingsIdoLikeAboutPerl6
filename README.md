@@ -5,9 +5,11 @@ Perl 6 is my favorite language. I could spend days telling you how awesome it is
 
 But I obviously don't know it well enough, because so far there are only a few things that I don't like:
 
-1. `say` from Perl 5 is called `put` in Perl 6 and `say` is enough different to cause problems if you don't realize that.
+1. `say` from Perl 5 is called `put` in Perl 6 and `say` in Perl 6 is similar enough to cause problems if you don't realize that difference (i.e. `say` prints the `.gist`, which is sometimes abbreviated compared to what `put` prints).
 2. Unused named parameters in method calls are silently ignored. Even https://github.com/nxadm/StrictNamedArguments does not fix except for on methods that you explictly declare `strict`.
 3. It doesn't yet have an implementation that is as fast as Perl 5 for processing huge files (but it is getting faster).
+
+# Things About Perl 6 that I don't feel I can live without:
 
 But there are at least 10 reasons I can't leave Perl 6:
 
@@ -20,7 +22,8 @@ But there are at least 10 reasons I can't leave Perl 6:
 7. The ability to easily chain methods (like in Python)
 8. Using unspace with chained methods so that they can line up vertically (unlike Python?)
 
-By the way, did I mention how much I like `MAIN` subroutines?
+9. By the way, did I mention how much I like `MAIN` subroutines?
+10. See 1, 2, 3, and 9 above.
 
 Other things that I really like, even though I haven't yet used them:
 
