@@ -3,7 +3,7 @@ brian d foy once had a Stack Overflow question that asked "What are 5 things tha
 
 Perl 6 is my favorite language. I could spend days telling you how awesome it is.
 
-But I obviously don't know it well enough, because so far there are only a few things that I don't like:
+But I obviously don't know Perl 6 well enough, because so far there are only three things that I don't like:
 
 1. `say` from Perl 5 is called `put` in Perl 6 and `say` in Perl 6 is similar enough to cause problems if you don't realize that difference (i.e. `say` prints the `.gist`, which is sometimes abbreviated compared to what `put` prints).
 2. Unused named parameters in method calls are silently ignored. Even https://github.com/nxadm/StrictNamedArguments does not fix except for on methods that you explictly declare `strict`.
@@ -16,7 +16,7 @@ There are at least 10 reasons I can't leave Perl 6:
 1. sub `MAIN` captures command line parameters into variables of your choice
 2. sub `MAIN` automatically results in a `USAGE` statement when its parameters are not met
 3. multi dispatch (even, or should I say especially, with `MAIN`)
-4. The most effortless parallelism and async capabilities that I have ever seen.
+4. The most effortless parallelism and async capabilities that I have ever seen. (see hyperoperators, `.hyper`, `.race`) 
 5. named parameters require only one more character than positional parameters (i.e. `:` + `$x` = `:$x`).
 6. Much improved regular expressions (e.g. Not needing `xms` at the end of every regex)
 7. The ability to easily chain methods (like in Python)
@@ -26,7 +26,7 @@ There are at least 10 reasons I can't leave Perl 6:
 11. `shell` and `run`
 12. Extract multiple items from an array at a time `for @array -> $var1, $var2 { }`
 
-
+And dozens of little things that just make programming so much pleasanter than other languages. Perl 6 is much more declarative than any other language that I've worked with.
 
 Other things that I really like, even though I haven't yet used them:
 
